@@ -1,4 +1,4 @@
-powershell
+
  $width  = [Console]::WindowWidth
  $height = [Console]::WindowHeight
  $columns = 1..$width | ForEach-Object { Get-Random -Min -20 -Max 0 }
